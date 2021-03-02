@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         int itemThatWasClickedId = item.getItemId();
         if (itemThatWasClickedId == R.id.action_search) {
             // Complete (4) Remove the Toast message when the search menu item is clicked
-            // TODO (5) Call makeGithubSearchQuery when the search menu item is clicked
+            // Complete (5) Call makeGithubSearchQuery when the search menu item is clicked
             makeGithubSearchQuery();
             return true;
         }
